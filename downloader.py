@@ -2,9 +2,9 @@ import libtorrent as lt
 import time
 import sys
 
-source_link = r'magnet:?xt=urn:btih:F4C231734DF63E05D214B08308D2EF93210C1858&dn=The+Lion+King+%282019%29+%5BBluRay%5D+%5B1080p%5D+%5BYTS%5D+%5BYIFY%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce'
-source_path = 'Users/kawaiicarrot/Downloads/test.torrent'
-out_path = '/Users/kawaiicarrot/Movies/'
+source_link = r''
+source_path = ''
+out_path = ''
 
 ses = lt.session({'listen_interfaces': '0.0.0.0:6881,6882,6883,6884,6885,6886,6887,6888,6889'})
 
