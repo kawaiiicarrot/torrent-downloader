@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import filedialog
-from turtle import left
 
 torrent_file = ''
 save_folder = ''
