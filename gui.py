@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import LEFT, RIGHT, TOP, filedialog
+from tkinter import filedialog
 from turtle import left
 
 torrent_file = ''
