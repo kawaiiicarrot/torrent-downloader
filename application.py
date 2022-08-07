@@ -91,9 +91,10 @@ def download(file, folder):
 #######################################################################################################################
 #Root window
 root = tk.Tk()
-root.geometry('700x300')
+root.geometry('700x320')
 root.title('Torrent Downloader')
-root.iconbitmap('icon.ico')
+#to be used when creating app for windows
+#root.iconbitmap('icon.ico')
 
 #Main frame inside root window
 main = tk.Frame(root)
@@ -149,6 +150,6 @@ status_label.pack(fill='x', expand=True)
 
 # progressbar
 pb = ttk.Progressbar(main, orient='horizontal', mode='determinate')
-pb.pack(fill='x', expand=True)
+pb.pack(fill='x', expand=True, pady=5)
 
 main.mainloop()
