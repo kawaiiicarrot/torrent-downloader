@@ -1,5 +1,5 @@
 # Torrent-Downloader
-A simple torrent downloader application.
+A simple torrent downloader application for MacOS
 
 ## Pre-Requsities
 * Python 3.9
